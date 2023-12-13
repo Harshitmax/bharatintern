@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="netflix-logo.png" alt="Netflix Logo">
+            </div>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Movies</a>
+                <a href="#">Latest</a>
+                <a href="#">My List</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows, and more.</h1>
+            <p>Watch anywhere. Cancel anytime.</p>
+            <button>Try 30 Days Free</button>
+        </div>
+    </section>
+
+    <section class="featured">
+        <h2>Featured Titles</h2>
+        <div class="featured-content">
+            <!-- Add featured movie/show cards here -->
+            <div class="featured-card">
+                <img src="movie1.jpg" alt="Movie 1">
+            </div>
+            <div class="featured-card">
+                <img src="movie2.jpg" alt="Movie 2">
+            </div>
+            <div class="featured-card">
+                <img src="show1.jpg" alt="Show 1">
+            </div>
+            <!-- Add more cards as needed -->
+        </div>
+    </section>
+
+    <!-- Add more sections for different categories -->
+
+    <footer>
+        <p>&copy; 2023 Netflix Clone</p>
+    </footer>
+</body>
+</html>
